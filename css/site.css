@@ -31,3 +31,7 @@ p {
   font-family: "monaco", monospace;
   font-size: 20px;
 }
+
+ul {
+    list-style-type: disc;
+}
