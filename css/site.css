@@ -1,4 +1,4 @@
-h1 {
+#rainbow {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -9,15 +9,15 @@ h1 {
 
 h2 {
     font-family: "monaco", monospace;
-    text-indent: 10px
-    margin-left: 10px
+    text-indent: 10px;
+    margin-left: 10px;
 
 }
 
 p {
   font-family: "monaco", monospace;
-  text-indent: 20px
-  margin-left: 10px
+  text-indent: 20px;
+  margin-left: 10px;
 
 }
 
