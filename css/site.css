@@ -1,14 +1,17 @@
-.rainbow-text {
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 25px;
-    transition: background-image .25s ease-in-out;
+h1 {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  transition: background-image .25s ease-in-out;
+
 }
 
-h1 {
-  color: white;
-  font-size: 180%;
+h2 {
+    font-family: "monaco", monospace;
+    text-indent: 10px
+    margin-left: 10px
+
 }
 
 p {
