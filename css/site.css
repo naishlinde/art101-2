@@ -11,25 +11,28 @@
 h2 {
   font-family: "monaco", monospace;
   text-indent: 10px;
-  margin-left: 10px;
+  margin: 10px;
 
 }
 
 p {
   font-family: "monaco", monospace;
   text-indent: 20px;
-  margin-left: 10px;
+  margin: 10px;
 
 }
 
+
 #content {
+  background-color: ;
   font-family: "monaco", monospace;
   font-size: 20px;
-  margin-left: 10px;
+  color: #ab7872;
+  margin: 10px;
 
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: upper-roman;
 
 }
