@@ -1,0 +1,45 @@
+html {
+  background-color: beige
+
+}
+
+#rainbow {
+  font-family: "monaco", monospace;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  transition: background-image .25s ease-in-out;
+
+}
+
+h2 {
+  font-family: "monaco", monospace;
+  text-indent: 10px;
+  margin: 10px;
+
+}
+
+p {
+  font-family: "monaco", monospace;
+  text-indent: 20px;
+  margin: 10px;
+
+}
+
+
+#content {
+  background-color: cadetblue;
+  font-family: "monaco", monospace;
+  font-size: 20px;
+  color: #ab7872;
+  padding: 10px;
+  border: solid 10px tan;
+
+}
+
+ul {
+  list-style-type: upper-roman;
+  list-style-position: inside;
+
+}
