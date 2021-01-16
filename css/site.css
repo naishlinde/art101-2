@@ -46,3 +46,10 @@
   padding: 10px;
 
 }
+
+#labs {
+  font-family: "monaco", monospace;
+  font-size: 18px
+  color: beige;
+
+}
