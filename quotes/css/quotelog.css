@@ -1,3 +1,6 @@
+html {
+  background-color: beige;
+}
 #rainbow {
   font-family: "monaco", monospace;
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
