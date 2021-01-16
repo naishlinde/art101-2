@@ -1,3 +1,8 @@
+html {
+  background-color: beige
+
+}
+
 #rainbow {
   font-family: "monaco", monospace;
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
@@ -24,11 +29,12 @@ p {
 
 
 #content {
-  background-color: ;
+  background-color: cadetblue;
   font-family: "monaco", monospace;
   font-size: 20px;
   color: #ab7872;
-  margin: 10px;
+  padding: 10px;
+  border: solid 10px tan;
 
 }
 
