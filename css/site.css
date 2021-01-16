@@ -10,7 +10,8 @@
   -webkit-text-fill-color: transparent;
   font-size: 25px;
   transition: background-image .25s ease-in-out;
-  background-size: 410px;
+  width: fit-content;
+
 
 }
 
