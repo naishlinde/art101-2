@@ -1,4 +1,4 @@
-html {
+#html {
   background-color: beige
 
 }
@@ -14,14 +14,14 @@ html {
 
 }
 
-h2 {
+#h2 {
   font-family: "monaco", monospace;
   text-indent: 10px;
   margin: 10px;
 
 }
 
-p {
+#p {
   font-family: "monaco", monospace;
   text-indent: 20px;
   margin: 10px;
@@ -39,7 +39,7 @@ p {
 
 }
 
-ul {
+#ul {
   list-style-type: upper-roman;
   list-style-position: inside;
   padding: 10px;
