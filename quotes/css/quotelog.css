@@ -4,12 +4,12 @@
 
 #rainbow {
   font-family: "monaco", monospace;
-  width: fit-content;
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 25px;
   transition: background-image .25s ease-in-out;
+  width: fit-content;
 
 }
 
