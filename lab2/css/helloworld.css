@@ -1,0 +1,40 @@
+#background {
+    background-color: cadetblue;
+    width: 1000px;
+    min-height: 600px;
+    padding: 10px;
+    border: solid 6px navy;
+}
+
+#main_title {
+  font-family: "monaco", monospace;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  transition: background-image .25s ease-in-out;
+}
+
+#self_paragraph {
+    font-family: "monaco", monospace;
+    font-size: 20px;
+    color: cornsilk;
+}
+
+#second_title {
+    font-family: "monaco", monospace;
+    font-size: 26px
+    font-weight:bold;
+    color: #aaff8f;
+
+}
+
+html {
+  background: beige;
+
+}
+
+#images {
+  width: 300px
+  height:auto;
+}
