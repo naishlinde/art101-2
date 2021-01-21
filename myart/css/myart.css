@@ -1,9 +1,4 @@
-div {
-  margin: 4px;
-
-}
-
 img {
-  display: contents;
+  display: inline-flex;
 
 }
