@@ -1,0 +1,14 @@
+#content {
+
+}
+
+img {
+  width: 80%;
+  height: auto;
+  margin: 10%;
+  padding: 10px;
+  border-image-width: 16px;
+  border: double;
+  border-color: #59103e;
+
+}
