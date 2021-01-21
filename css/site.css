@@ -1,7 +1,11 @@
 h1 {
   color: #59103e;
-  text-align: center;
+  text-align: left;
   font-size: 200%
   font-family: 'Ultra', serif;
+
+}
+
+nav, li {
 
 }
