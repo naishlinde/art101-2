@@ -8,7 +8,7 @@ h1 {
 
 h2 {
   color: #59103e;
-  text-align: left;
+  text-align: center;
   font-size: 300%;
   font-family: 'Ultra', serif;
 
@@ -16,7 +16,7 @@ h2 {
 
 p {
   color: #59103e;
-  text-align: left;
+  text-align: center;
   font-size: 100%
   font-family: "Quicksand", sans-serif;
 
@@ -24,13 +24,13 @@ p {
 
 li {
   list-style-type: none;
-  text-align: left;
+  text-align: center;
 
 }
 
 a {
   color: #59103e;
-  text-align: left;
+  text-align: center;
   font-size: 100%;
   font-family: 'Ultra', serif;
 
@@ -43,9 +43,9 @@ nav ul li a:hover {
 }
 
 #image {
-  align-items: center;
-  width: 50%;
+  width: 60%;
   height: auto;
+  margin-left: 20%
 
 }
 
