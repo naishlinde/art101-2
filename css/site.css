@@ -1,6 +1,6 @@
 h1 {
   color: #59103e;
-  text-align: left;
+  text-align: center;
   font-size: 400%;
   font-family: 'Ultra', serif;
 
@@ -8,20 +8,20 @@ h1 {
 
 h2 {
   color: #59103e;
-  text-align: right;
+  text-align: center;
   font-size: 300%;
   font-family: 'Ultra', serif;
 }
 
 li {
   list-style-type: none;
-  text-align: right;
+  text-align: center;
 
 }
 
 a {
   color: #59103e;
-  text-align: right;
+  text-align: center;
   font-size: 100%;
   font-family: 'Ultra', serif;
 }
@@ -29,11 +29,5 @@ a {
 nav ul li a:hover {
   background-color: #edeadf;
   font-size: 150%;
-
-}
-
-div {
-  display: inline;
-  column-width: 50%;
 
 }
