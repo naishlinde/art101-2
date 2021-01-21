@@ -1,11 +1,27 @@
 h1 {
   color: #59103e;
   text-align: left;
-  font-size: 200%
+  font-size: 200%;
   font-family: 'Ultra', serif;
 
 }
 
-nav, li {
+h2 {
+  color: #59103e;
+  text-align: center;
+  font-size: 100%;
+  font-family: 'Ultra', serif;
+}
+
+nav li a:float {
+  display: inline;
+  text-align: right;
+
+}
+
+nav li a:hover {
+  background-color: #edeadf;
+  font-size: 110%
+
 
 }
