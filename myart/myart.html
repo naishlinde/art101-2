@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link href="img"
+    <style>
+      div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 180px;
+        }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+      }
+
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+    </style>
     <meta charset="utf-8">
     <title>My Art</title>
   </head>
   <div class="gallery">
-  <a target="_blank" href="img/mercuryseye.jpeg">
+  <a target="" href="img/mercuryseye.jpeg">
     <img src="mercuryseye.jpeg" alt="Mercury's Eye" width="600" height"600">
   </a>
   <div class="desc">Graphic Artwork</div>
@@ -32,4 +53,5 @@
   </a>
   <div class="desc">Oil on gallery wrapped canvas - 48" x 30"</div>
 </div>
+
 </html>
