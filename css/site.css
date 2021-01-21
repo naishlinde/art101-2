@@ -1,27 +1,39 @@
 h1 {
   color: #59103e;
   text-align: left;
-  font-size: 200%;
+  font-size: 400%;
   font-family: 'Ultra', serif;
 
 }
 
 h2 {
   color: #59103e;
-  text-align: center;
-  font-size: 100%;
+  text-align: right;
+  font-size: 300%;
   font-family: 'Ultra', serif;
 }
 
-nav li a:float {
-  display: inline;
+li {
+  list-style-type: none;
   text-align: right;
 
 }
 
-nav li a:hover {
-  background-color: #edeadf;
-  font-size: 110%
+a {
+  color: #59103e;
+  text-align: right;
+  font-size: 100%;
+  font-family: 'Ultra', serif;
+}
 
+nav ul li a:hover {
+  background-color: #edeadf;
+  font-size: 150%;
+
+}
+
+div {
+  display: inline;
+  column-width: 50%;
 
 }
