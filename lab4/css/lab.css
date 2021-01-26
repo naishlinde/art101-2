@@ -1,0 +1,36 @@
+body{
+  background-color: #dbc3b6
+}
+
+
+#a {
+  list-style: none;
+  font-family: "Courier new", monospace;
+  font-size: 24px;
+  font-style: bold;
+
+}
+
+#b {
+  list-style: none;
+  font-family: "Courier new", monospace;
+  font-size: 24px;
+  padding-left: 10px
+
+}
+
+#c {
+  list-style: none;
+  font-family: "Courier new", monospace;
+  font-size: 24px;
+  padding-left: 20px;
+
+}
+
+#d {
+  list-style: none;
+  font-family: "Courier new", monospace;
+  font-size: 24px;
+  padding-left: 30px;
+
+}
