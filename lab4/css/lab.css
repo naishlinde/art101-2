@@ -1,36 +1,77 @@
-body{
-  background-color: #dbc3b6
-}
-
-
-#a {
-  list-style: none;
-  font-family: "Courier new", monospace;
-  font-size: 24px;
-  font-style: bold;
+body {
+  background-color: #dbc3b6;
 
 }
 
-#b {
-  list-style: none;
-  font-family: "Courier new", monospace;
-  font-size: 24px;
-  padding-left: 10px
-
-}
-
-#c {
-  list-style: none;
-  font-family: "Courier new", monospace;
-  font-size: 24px;
+h1 {
+  font-family: "Courier new",monospace;
   padding-left: 20px;
+  color: aquamarine;
 
 }
 
-#d {
-  list-style: none;
+#title {
+  font-family: "Courier new",monospace;
+  text-align: center;
+  font-size: 40px;
+  padding-left: 20px;
+  color: aquamarine;
+
+}
+
+h2 {
   font-family: "Courier new", monospace;
-  font-size: 24px;
   padding-left: 30px;
+  color: cornsilk;
+
+}
+
+#titlenames {
+  font-family: "Courier new", monospace;
+  padding-left: 30px;
+  color: cornsilk;
+  text-align: center;
+}
+
+pre {
+  font-family: "Courier new", Monospace;
+  font-size: 14px;
+  color: crimson;
+  border-style: double;
+  padding: 20px;
+  padding-right: 40px;
+  border-width: 10px;
+  border-color: cornsilk;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+p {
+  font-family: "Courier new", Monospace;
+  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 50%;
+  color: crimson;
+  border-style: double;
+  padding: 10px;
+  border-color: cornsilk;
+  border-width: 10px;
+  margin-left: 20px;
+
+
+}
+
+img{
+  display: inline;
+  float: right;
+  border-style: double;
+  padding: 10px
+  border-width: 10px;
+  border-color: cornsilk;
+  width: 30%;
+  height: auto;
+
 
 }
