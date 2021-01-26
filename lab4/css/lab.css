@@ -4,46 +4,47 @@ body {
 }
 
 h1 {
-  font-family: "Courier new",monospace;
-  padding-left: 20px;
+  font-family: "Cinzel", serif;
+  padding: 20px;
   color: aquamarine;
+  margin-left: 10%;
 
 }
 
 #title {
-  font-family: "Courier new",monospace;
+  font-family: "Cinzel", serif;
   text-align: center;
   font-size: 40px;
-  padding-left: 20px;
-  color: aquamarine;
+  color: firebrick;
 
 }
 
 h2 {
-  font-family: "Courier new", monospace;
+  font-family: "Cinzel", serif;
   padding-left: 30px;
   color: cornsilk;
 
 }
 
 #titlenames {
-  font-family: "Courier new", monospace;
+  font-family: "Cinzel", serif;
   padding-left: 30px;
   color: cornsilk;
   text-align: center;
+
 }
 
 pre {
   font-family: "Courier new", Monospace;
   font-size: 14px;
-  color: crimson;
+  color: firebrick;
   border-style: double;
   padding: 20px;
-  padding-right: 40px;
   border-width: 10px;
   border-color: cornsilk;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
 
 }
 
@@ -52,26 +53,35 @@ p {
   font-size: 18px;
   padding-left: 40px;
   padding-right: 40px;
-  width: 50%;
-  color: crimson;
+  color: firebrick;
   border-style: double;
   padding: 10px;
   border-color: cornsilk;
   border-width: 10px;
-  margin-left: 20px;
-
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%
 
 }
 
-img{
-  display: inline;
+#right {
   float: right;
+  font-family: "Courier new",monospace;
+  padding-left: 20px;
+  color: aquamarine;
+
+}
+
+img {
+  padding: 10px;
   border-style: double;
-  padding: 10px
+  border-image-width: 10px;
   border-width: 10px;
   border-color: cornsilk;
-  width: 30%;
+  width: 80%;
   height: auto;
-
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%
 
 }
