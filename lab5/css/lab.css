@@ -1,0 +1,44 @@
+#background {
+  background-color: #e8e8e8;
+  border-style: double;
+  border-color: #690049;
+  border-width: 20px;
+  padding: 10px;
+
+}
+
+h1 {
+   font-family: "Macondo Swash Caps", cursive;
+   font-size: 40px;
+   color: #aabf0d;
+
+}
+
+h2 {
+  text-align: left;
+  padding: 10px;
+  font-family: "Marvel", sans-serif;
+  font-size: 32px;
+  color: #c1d627;
+}
+
+img {
+  display: inline;
+  float: right;
+  width: 40%;
+  border-style: inset;
+  border-width: 10px;
+  border-color: #b0b398;
+
+
+}
+
+p {
+  text-align: left;
+  margin-right: 50%;
+  padding: 10px;
+  font-family: "Marvel", sans-serif;
+  font-size: 26px;
+  color: #690049;
+
+}
