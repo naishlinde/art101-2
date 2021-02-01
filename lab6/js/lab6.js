@@ -15,6 +15,9 @@ var daWhip = {
   color : "Burgundy",
   currentYear : 2021,
   year : 2011,
+  age: function () {
+    return (2021-this.year);
+  }
 };
 
 
@@ -24,3 +27,4 @@ document.writeln("How I get around: ", myTransport, "</br>");
 document.writeln("<br>");
 document.writeln("Main Ride: <pre>",
     JSON.stringify(daWhip, null, '\t'), "</pre>");
+document.writeln("Age: ", daWhip.age());
