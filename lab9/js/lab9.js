@@ -8,7 +8,7 @@ var outputEl = document.getElementById("output");
 
 var new1El = document.createElement ("p");
 
-new1El.innerHTML = "Wine is constant proof that God loves us and loves to see us happy. - Benjamin Franklin";
+new1El.innerHTML = "Wine is constant proof that God loves us and loves to see us happy.<br> - Benjamin Franklin";
 
 var new2El = document.createElement ("p");
 
@@ -18,6 +18,10 @@ outputEl.appendChild(new1El);
 
 outputEl.appendChild(new2El);
 
-new1El.style.fontFamily = "Raleway";
+new1El.style.fontFamily = "Ubuntu Mono";
 
-new2El.style.fontFamily = "Raleway";
+new2El.style.fontFamily = "Ubuntu Mono";
+
+new1El.style.color = "#f794d8";
+
+new2El.style.color = "#f794d8";
