@@ -1,0 +1,92 @@
+/**
+CSS for Lab 10: Javascript Events & Forms
+**/
+
+/**
+Concept for styling:
+elegent - minimalistic design: textured background(something natural?)
+        - foggy display box
+        - simple and clean font
+        - font color that contrasts slightly with display box
+        - homescreen?
+          - click to enter w/ cool transition?
+**/
+#content {
+  background-color: #242424;
+
+}
+
+h1 {
+  font-family: "Josefin Slab", serif;
+  font-size: 50px;
+  color: cadetblue;
+  text-align: left;
+  margin-left: 10%
+
+}
+
+h2 {
+  font-family: "Josefin Slab", serif;
+  font-size: 40px;
+  color: azure;
+  text-align: left;
+  margin-left: 12%;
+
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: antiquewhite;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+#main-content {
+
+}
+
+#input {
+  margin-left: 40%;
+
+}
+
+#button {
+  margin-left: 40%;
+}
+
+#my-button {
+  font-family: "Josefin Slab", serif;
+  font-size: 30px;
+  color: azure;
+  background-color: #242424;
+  border-style: outset;
+  border-radius: 8px;
+  border-color: cadetblue;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 32%;
+
+
+}
+
+#user-name {
+  font-family: "Josefin Slab", serif;
+  font-size: 40px;
+  color: azure;
+  background-color: #242424;
+  border-style: outset;
+  border-radius: 8px;
+  border-color: cadetblue;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 32%;
+
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 10: JavaScript Events & Forms</title>
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+  	<link rel="stylesheet" type="text/css" href="css/lab.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Raleway&display=swap" rel="stylesheet">
+    <div>
+      <script src="js/lab10.js" defer></script>
+    </div>
+  </head>
+  <body id="content">
+    <h1>Lab 10: JavaScript Events & Forms</h1>
+    <h2>Challenges</h2>
+      <p>Our challenge was to create a basic website that featured an input form field and a button. In javascript, we are supposed to use the scrambling function from Lab 7 using the user input from the form field. This function would then be activated by the button by adding an event listener. This function would first separate every character into an array of strings using .split, then shuffle each string using .sort, finally, it would rejoin the array into a single string by using .join. The results of our user’s submission would then be printed below the input form field and button as a new element. The main challenges of this lab were altering the javascript to do all of the functions of Lab 7 using an input form field rather than a window prompt appearing when the user first opens the webpage.</p>
+    <h2>Problems</h2>
+      <p>The lack of description in the Canvas assignment made this assignment especially difficult. We had plenty of trouble sorting out the semantics and keeping uniformity between our HTML and JavaScript files. When paring the data form field with the JavaScript, we gave the form field the id="user-name" in the HTML file and referenced it with document.getElementById(“my-input”). By using a different reference, the js did not sufficiently link up to the HTML, thus the following console.log did not print.
+        <br>
+        <br>
+      Once we had our HTML and JavaScript files configured correctly, we found that the function would print the new name twice on the website. After some analysis we found that the issue was that we were assigning the functions output to a variable and then appending the variable to the output div which inserted the output to the document while triggering the code to run again causing it to reprint the output. By referencing the button element in the new variable, we were able to send the function output back to the button element which integrated the output.
+      </p>
+    <h2>Results</h2>
+      <p>Here are the results of our work. You can type your name into the input-form field, and then click the button to reveal your new name. </p>
+    <div id="input">
+      <input type="text" id="user-name">
+    </div>
+    <div id="button">
+      <button id="my-button">Submit Input</button>
+    </div>
+      <div>
+        <script src="js/lab10.js">
+        </script>
+      </div>
+    </div
+  </body>
+</html>
