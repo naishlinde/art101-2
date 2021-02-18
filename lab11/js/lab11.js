@@ -25,7 +25,7 @@ resultsEl.append(my3Button)
 pageEl.append(my4Button)
 
 var buttonEl = $('#button')
-var button2El = $('#buttonb')
+var button2El = $('#button')
 var button3El = $('#buttonc')
 var button4El = $('#buttond')
 
