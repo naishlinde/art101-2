@@ -1,0 +1,53 @@
+body {
+  background-color: #253629;
+
+
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  color: chartreuse;
+  margin-left: 20%;
+
+}
+
+h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 28px;
+  color: #7cba61;
+  margin-left: 25%;
+
+}
+
+p {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 18px;
+  color: #bad1b0;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+#input {
+  background-color: #253629;
+  font-family: 'Rock Salt', cursive;
+  font-size: 24px;
+  color: chartreuse;
+  border-style: ridge;
+  border-radius: 8px;
+  border-width: 6px;
+  margin-left: 20%;
+
+}
+
+#button{
+  background-color: #253629;
+  font-family: 'Bangers', cursive;
+  font-size: 24px;
+  color: chartreuse;
+  border-style: ridge;
+  border-radius: 8px;
+  border-width: 6px;
+
+}
