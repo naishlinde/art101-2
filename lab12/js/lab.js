@@ -1,38 +1,8 @@
 /**
-This is a project which will create a series of borders surrounding a button "wow!"
-and it will cycle through the borders, changing their colors in a rainbow, and cycling through them
+Lab 12: Conditionals
+Jordan Moore & Naish Linde
+2/23/2020
 **/
-
-// function getHouse(num) {
-//
-//   var remainder = num % 4;
-//
-//   if (remainder == 1) {
-//     var str = "Gryffindor";
-//   } else if (remainder == 2) {
-//     var str = "Ravenclaw";
-//   } else if (remainder == 3) {
-//     var str = "Hufflepuff";
-//   } else if (remainder == 0) {
-//     var str = "Slytherin";
-//   }
-//   return str;
-// }
-//
-// $('#button').click(function(){
-//
-// var name = $("#input").val();
-// console.log(name);
-// var nameLength = name.length;
-// console.log(nameLength);
-// var house = getHouse(nameLength);
-// console.log(house);
-//
-// var str = ;
-//
-// $('#output h2').html(str);
-//
-// });
 
 function sortingShell(name) {
 
