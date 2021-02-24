@@ -1,0 +1,163 @@
+body {
+  background-color: azure;
+
+}
+
+@keyframes red {
+  from {background-color: red;}
+  to {background-color: yellow;}
+  to {background-color: blue;}
+  to {background-color: violet;}
+}
+
+@keyframes yel {
+  from {background-color: yellow;}
+  to {background-color: blue;}
+  to {background-color: violet;}
+  to {background-color: red;}
+}
+
+@keyframes blu {
+  from {background-color: blue;}
+  to {background-color: violet;}
+  to {background-color: red;}
+  to {background-color: yellow;}
+}
+
+@keyframes vio {
+  from {background-color: violet;}
+  to {background-color: red;}
+  to {background-color: yellow;}
+  to  {background-color: blue;}
+}
+@keyframes whi {
+  from {background-color: cyan;}
+  to {background-color: white;}
+  to {background-color: cyan;}
+  to {background-color: black;}
+}
+
+@keyframes cya {
+  from {background-color: black;}
+  to {background-color: cyan;}
+  to {background-color: white;}
+  to {background-color: cyan;}
+}
+
+#mosaic-box {
+  width: 1000px;
+  height: 1000px;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-style: ridge;
+  border-width: 10px;
+  border-color: #a2b0c3;
+
+}
+
+#base-tile {
+  float: left;
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+
+}
+
+.red {
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  animation-name: red;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+.blue {
+  float: left;
+  background-color: mediumaquamarine;
+  width: 10px;
+  height: 10px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  animation-name: blu;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+.yellow {
+  float: left;
+  background-color: peachpuff;
+  width: 10px;
+  height: 10px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  animation-name: yel;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+.violet {
+  float: left;
+  background-color: #ffbe00;
+  width: 10px;
+  height: 10px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  animation-name: vio;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+.white {
+  float: left;
+  background-color: snow;
+  width: 10px;
+  height: 10px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  animation-name: whi;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+.cyan {
+  float: left;
+  background-color: #00ffff;
+  width: 10px;
+  height: 10px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  animation-name: cya;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+/* .red {
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  animation-name: fire;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+} */
