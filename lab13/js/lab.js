@@ -81,7 +81,7 @@ Jordan Moore & Naish Linde
 // }
 
 
-for (var tile = 1; tile <= 10000; tile++) {
+for (var tile = 1; tile <= 20000; tile++) {
   console.log(tile);
   if (tile % 11 == 0) {
     $('#mosaic-box').append("<p class = 'yellow'></p>");
