@@ -1,10 +1,5 @@
 body {
-  background-color: azure;
-
-}
-
-@keyframes  {
-
+  background-color: #1f1f1f;
 
 }
 
@@ -56,6 +51,14 @@ body {
 }
 
 @keyframes fancylink {
+  0% {color: red;}
+  33% {color: yellow;}
+  66% {color: blue;}
+  100% {color: red;}
+
+}
+
+@keyframes titlewow {
   0% {color: red;}
   33% {color: yellow;}
   66% {color: blue;}
@@ -187,6 +190,16 @@ body {
 a {
   text-decoration: none;
   animation-name: fancylink;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+
+}
+
+h1 {
+  font-family: 'Oi', cursive;
+  font-size: 50px;
+  text-align: center;
+  animation-name: titlewow;
   animation-duration: 10s;
   animation-iteration-count: infinite;
 
