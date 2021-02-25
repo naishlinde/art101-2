@@ -1,0 +1,45 @@
+body {
+  background-color: #e5e5f7;
+  background-image: radial-gradient(#444cf7 1px, #e5e5f7 1px);
+  background-size: 20px 20px;
+
+}
+
+#titlebox {
+  background-color: #b2b2b2c4;
+  margin-left: 6%;
+  margin-right: 42%;
+  border-style: dotted;
+  border-width: 8px;
+  border-color: #aba9a7;
+  border-radius: 4px;
+}
+
+h1 {
+  font-family: 'Krona One', sans-serif;
+  font-size: 60px;
+  padding: 5px;
+  opacity: 1.0;
+  color: #2a044f;
+  margin: 10px;
+
+}
+
+h2 {
+  font-family: 'Krona One', sans-serif;
+  font-size: 28px;
+  padding: 5px;
+  margin-left: 10%;
+  opacity: 1.0;
+  color: #888594;
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-left: 15%;
+  margin-left: 10%;
+  color: #4f4339;
+
+}

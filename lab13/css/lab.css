@@ -59,10 +59,10 @@ body {
 }
 
 @keyframes titlewow {
-  0% {color: red;}
-  33% {color: yellow;}
-  66% {color: blue;}
-  100% {color: red;}
+  0% {color: green;}
+  33% {color: orange;}
+  66% {color: violet;}
+  100% {color: green;}
 
 }
 
@@ -73,8 +73,10 @@ body {
   margin-top: 10px;
   margin-right: 10px;
   border-style: ridge;
-  border-width: 10px;
-  border-color: #a2b0c3;
+  border-width: 8px;
+  border-color: #fff4eb;
+  border-radius: 4px;
+  box-shadow: 0px 0px 12px white;
 
 }
 
@@ -177,13 +179,11 @@ body {
   margin-right: 32%;
   margin-top: 10px;
   padding-top: 4px;
-  background-color: azure;
-  font-size: 30px;
-  font-family: 'Oi', cursive;
+  background-color: #1f1f1f;
+  font-family: 'Krona One', sans-serif;
+  font-size: xx-large;
+  text-shadow: 1px 1px 4px white;
   text-align: center;
-  border-style: ridge;
-  border-width: 4px;
-  border-color: orchid;
 
 }
 
@@ -196,13 +196,13 @@ a {
 }
 
 h1 {
-  font-family: 'Oi', cursive;
-  font-size: 50px;
-  text-align: center;
-  animation-name: titlewow;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-
+    font-family: 'Krona One', sans-serif;
+    font-size: xxx-large;
+    text-shadow: 1px 1px 8px white;
+    text-align: center;
+    animation-name: titlewow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 /* .red {
