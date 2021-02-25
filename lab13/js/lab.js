@@ -3,6 +3,46 @@ Lab 13: Loops
 Jordan Moore & Naish Linde
 **/
 
+/**
+   -Concept: grid of squares 1px by 1px (tiles like in a mosaic)
+   - grid = 1,000px by 1,000px
+     -loop generates numbers 1-10,000
+       - paramaters are to be defined which, if met, toggle a class
+         - parameter = even -> toggle class that makes the square red
+         - parameter = odd -> toggle class that makes the square blue
+         - parameter = prime -> toggle class that makes the square yellow
+         - parameter = multiple of 11 -> toggle class that makes the square
+         white
+         - parameter = multiple of 11 & even -> toggle class that makes the
+         square black
+     - div must be made to contain the squares
+       - centered on page
+       - margins to make the grid a square
+**/
+
+
+for (var tile = 1; tile <= 20000; tile++) {
+  console.log(tile);
+  if (tile % 11 == 0) {
+    $('#mosaic-box').append("<p class = 'yellow'></p>");
+  } else if (tile % 13 == 0) {
+    $('#mosaic-box').append("<p class = 'violet'></p>");
+  } else if (tile % 17== 0) {
+    $('#mosaic-box').append("<p class = 'white'></p>")
+  } else if (tile % 2 == 0) {
+    $('#mosaic-box').append("<p class = 'red'></p>");
+  } else if (tile % 5 == 0) {
+    $('#mosaic-box').append("<p class = 'cyan'></p>");
+  } else if (tile % 2 !== 0){
+    $('#mosaic-box').append("<p class = 'blue'></p>");
+  } else {
+    $('#mosaic-box').append("<p class = 'base-tile'></p>");
+  }
+}
+
+
+
+
 // for (var i=10; i<5; i--) {
 //   console.log(i);
 // }
@@ -50,22 +90,8 @@ Jordan Moore & Naish Linde
 //   // For numbers which are multiples of both 3 and 5, print “FizzBuzz”
 // }
 
-/**
-   -Concept: grid of squares 1px by 1px (tiles like in a mosaic)
-   - grid = 1,000px by 1,000px
-     -loop generates numbers 1-10,000
-       - paramaters are to be defined which, if met, toggle a class
-         - parameter = even -> toggle class that makes the square red
-         - parameter = odd -> toggle class that makes the square blue
-         - parameter = prime -> toggle class that makes the square yellow
-         - parameter = multiple of 11 -> toggle class that makes the square
-         white
-         - parameter = multiple of 11 & even -> toggle class that makes the
-         square black
-     - div must be made to contain the squares
-       - centered on page
-       - margins to make the grid a square
-**/
+
+
 
 // for (var tile = 1; tile <= 9999; tile++) {
 //   console.log(tile);
@@ -79,23 +105,3 @@ Jordan Moore & Naish Linde
 //     console.log("x");
 //   }
 // }
-
-
-for (var tile = 1; tile <= 20000; tile++) {
-  console.log(tile);
-  if (tile % 11 == 0) {
-    $('#mosaic-box').append("<p class = 'yellow'></p>");
-  } else if (tile % 13 == 0) {
-    $('#mosaic-box').append("<p class = 'violet'></p>");
-  } else if (tile % 17== 0) {
-    $('#mosaic-box').append("<p class = 'white'></p>")
-  } else if (tile % 2 == 0) {
-    $('#mosaic-box').append("<p class = 'red'></p>");
-  } else if (tile % 5 == 0) {
-    $('#mosaic-box').append("<p class = 'cyan'></p>");
-  } else if (tile % 2 !== 0){
-    $('#mosaic-box').append("<p class = 'blue'></p>");
-  } else {
-    $('#mosaic-box').append("<p class = 'base-tile'></p>");
-  }
-}
