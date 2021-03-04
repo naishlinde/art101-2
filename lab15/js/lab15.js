@@ -1,8 +1,7 @@
 /**
 Lab 15: AJAX
 By Naish Linde & Jordan Moore
-ART101 - Coding for the Arts
-3/3/2021
+3/4/2021
 **/
 
 $('#submit').click(function() {
