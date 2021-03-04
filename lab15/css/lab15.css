@@ -4,6 +4,14 @@ body {
 
 }
 
+
+#maincolumn div {
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-top: 5%;
+
+}
+
 h1 {
   font-family: 'Josefin Slab', sans-serif;
   font-size: 40px;
@@ -76,12 +84,5 @@ p {
   border: #44563e 2px inset;
   border-radius: 6px;
   margin-top: 12px;
-
-}
-
-#maincolumn div {
-  margin-right: 25%;
-  margin-left: 25%;
-  margin-top: 5%;
 
 }
